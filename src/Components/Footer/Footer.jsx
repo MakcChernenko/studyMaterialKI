@@ -3,7 +3,7 @@ import styles from './Footer.module.css';
 const Footer = () => {
     return (
         <footer className={styles.footer}>
-            <div className={styles.footerLogo}>Шедевро - студенти</div>
+            <a href='https://study-material-ki.vercel.app/' className={styles.footerLogo}>Шедевро - студенти</a>
             <address>
                 <a href="mailto:">email</a>
                 <a href="tel:+097">tell</a>

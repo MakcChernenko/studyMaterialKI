@@ -6,21 +6,33 @@ return(
         <ul className={css.list}>
             <li className={css.item}>
                 <h2>Вища математика</h2>
-                <p><a href="./rozklad.pdf" download>конспект 1-2урок</a>
-                <a href="./Electromagnetyzm.pdf" >фізика</a>
-                </p>
+                <ul>
+                    <li><a href="./komplekcniChysla.pdf">Комплексні числа</a></li>
+                </ul>
                 </li>
             <li className={css.item}>
                 <h2>Фізика</h2>
+                <ul>
+                    <li><a href="./Electromagnetyzm.pdf" >Електромагнетизм</a></li>
+                    <li><a href="./physicsBook.pdf" >Фізика</a></li>
+                    <li><a href="./Laboratorka.pdf" >Лабораторні</a></li>
+                </ul>
+                
                 </li>
             <li className={css.item}>
                 <h2>Українська мова</h2>
                 </li>
             <li className={css.item}>
                 <h2>Історія</h2>
+                <ul>
+                    <li><a href="./History.docx">Історія</a></li>
+                </ul>
                 </li>
             <li className={css.item}>
                 <h2>IT право</h2>
+                <ul>
+                    <li><a href="./ITPravo1lesson.txt">Конспект 1 урока</a></li>
+                </ul>
                 </li>
             <li className={css.item}>
                 <h2>Комп'юторна інженерія</h2>
