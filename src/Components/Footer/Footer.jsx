@@ -9,9 +9,9 @@ const Footer = () => {
                 <a href="tel:+097">tell</a>
             </address>
             <ul className={styles.footerSocial}>
-                <li><a href="#" className={styles.footerSocialLink}>Facebook</a></li>
-                <li><a href="#" className={styles.footerSocialLink}>Twitter</a></li>
-                <li><a href="#" className={styles.footerSocialLink}>Instagram</a></li>
+                <li><a target="_blank" href="https://www.facebook.com/" className={styles.footerSocialLink}>Facebook</a></li>
+                <li><a target="_blank" href="https://www.youtube.com/" className={styles.footerSocialLink}>YouTube</a></li>
+                <li><a target="_blank" href="https://www.instagram.com/" className={styles.footerSocialLink}>Instagram</a></li>
             </ul>
         </footer>
     );

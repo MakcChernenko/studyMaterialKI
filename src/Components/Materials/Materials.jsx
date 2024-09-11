@@ -7,15 +7,15 @@ return(
             <li className={css.item}>
                 <h2>Вища математика</h2>
                 <ul>
-                    <li><a href="./komplekcniChysla.pdf">Комплексні числа</a></li>
+                    <li><a target="blank" href="./komplekcniChysla.pdf">Комплексні числа</a></li>
                 </ul>
                 </li>
             <li className={css.item}>
                 <h2>Фізика</h2>
                 <ul>
-                    <li><a href="./Electromagnetyzm.pdf" >Електромагнетизм</a></li>
-                    <li><a href="./physicsBook.pdf" >Фізика</a></li>
-                    <li><a href="./Laboratorka.pdf" >Лабораторні</a></li>
+                    <li><a target="blank" href="./Electromagnetyzm.pdf" >Електромагнетизм</a></li>
+                    <li><a target="blank" href="./physicsBook.pdf" >Фізика</a></li>
+                    <li><a target="blank" href="./Laboratorka.pdf" >Лабораторні</a></li>
                 </ul>
                 
                 </li>
@@ -25,13 +25,13 @@ return(
             <li className={css.item}>
                 <h2>Історія</h2>
                 <ul>
-                    <li><a href="./History.docx">Історія</a></li>
+                    <li><a target="blank" href="./History.docx">Історія</a></li>
                 </ul>
                 </li>
             <li className={css.item}>
                 <h2>IT право</h2>
                 <ul>
-                    <li><a href="./ITPravo1lesson.txt">Конспект 1 урока</a></li>
+                    <li><a target="blank" href="./ITPravo1lesson.txt">Конспект 1 урока</a></li>
                 </ul>
                 </li>
             <li className={css.item}>

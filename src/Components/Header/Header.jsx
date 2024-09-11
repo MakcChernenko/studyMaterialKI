@@ -1,8 +1,8 @@
 import css from "./Header.module.css"
 
-const Header = () =>{
-    return (
+const Header = ({handleSubmit}) =>{
 
+    return (
         <div className={css.header} >
             <nav className={css.nav} >
                 <a className={css.logo} href="https://study-material-ki.vercel.app/">Шедевро - студенти</a>
@@ -13,7 +13,7 @@ const Header = () =>{
                 <li><a href="#">Contact</a></li>
             </ul>
             </nav>
-            <form className={css.form} action=""><input type="text" placeholder="Матеріал" /><button type="button">Пошук</button></form>
+            <form onSubmit={handleSubmit} className={css.form}><input name="filtr" type="text" placeholder="Матеріал" /><button type="submit">Пошук</button></form>
         </div>
     )
 }
