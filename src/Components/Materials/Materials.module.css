@@ -1,13 +1,17 @@
-
-.materials{
-    width: 100%;
-    padding: 10px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: aqua;
+.materials {
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
 }
-.materials a{
-color: rgb(54, 20, 155)
+.materials a {
+  color: rgb(32, 33, 83);
+}
+.materials .rozklad {
+  font-size: 25px;
+  text-decoration: none;
+  color: rgb(36, 82, 55);
 }

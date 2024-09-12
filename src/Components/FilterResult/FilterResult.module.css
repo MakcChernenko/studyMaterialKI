@@ -1,0 +1,21 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+.filterResult {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.filterList {
+  border: black 1px solid;
+  list-style-type: none;
+  padding: 2px 20px;
+}
+.filterItem {
+  padding: 5px 0;
+}
+.filterResult .text {
+  margin: 0;
+}
