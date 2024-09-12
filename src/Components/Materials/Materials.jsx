@@ -24,9 +24,9 @@ return(
                 <ul>
                     <li><a href="./Ukrainian/book.pdf">Підручник</a>
                     </li>
-                    <li><a href="./Ukrainian/pravopys.pdf">Список публічних виступів</a>
+                    <li><a href="./Ukrainian/pravopys.pdf">Правопис</a>
                     </li>
-                    <li><a href="./Ukrainian/speachList.docx">Підручник</a>
+                    <li><a href="./Ukrainian/speachList.docx">Список публічних виступів</a>
                     </li>
                     <li><a href="./Ukrainian/Tests.docx">Тести</a>
                     </li>
