@@ -3,7 +3,10 @@ const Materials = () => {
   return (
     <div className={css.materials}>
       <a className={css.rozklad} href="./rozklad.pdf" target="_blank">
-        Розклад
+        Розклад PDF
+      </a>
+      <a href="./rozklad.jpg" target="_blank" rel="noopener noreferrer">
+        Розклад JPG
       </a>
       <h2>Наші предмети</h2>
       <ul className={css.list}>
@@ -11,7 +14,7 @@ const Materials = () => {
           <h3>Вища математика</h3>
           <ul>
             <li>
-              <a target="blank" href="./komplekcniChysla.pdf">
+              <a target="_blank" href="./komplekcniChysla.pdf">
                 Комплексні числа
               </a>
             </li>
@@ -21,17 +24,17 @@ const Materials = () => {
           <h3>Фізика</h3>
           <ul>
             <li>
-              <a target="blank" href="./Electromagnetyzm.pdf">
+              <a target="_blank" href="./Electromagnetyzm.pdf">
                 Електромагнетизм
               </a>
             </li>
             <li>
-              <a target="blank" href="./physicsBook.pdf">
+              <a target="_blank" href="./physicsBook.pdf">
                 Фізика
               </a>
             </li>
             <li>
-              <a target="blank" href="./Laboratorka.pdf">
+              <a target="_blank" href="./Laboratorka.pdf">
                 Лабораторні
               </a>
             </li>
@@ -65,7 +68,7 @@ const Materials = () => {
           <h3>Історія</h3>
           <ul>
             <li>
-              <a target="blank" href="./History.docx">
+              <a target="_blank" href="./History.docx">
                 Історія
               </a>
             </li>
@@ -75,7 +78,7 @@ const Materials = () => {
           <h3>IT право</h3>
           <ul>
             <li>
-              <a target="blank" href="./ITPravo1lesson.txt">
+              <a target="_blank" href="./ITPravo1lesson.txt">
                 Конспект 1 урока
               </a>
             </li>
