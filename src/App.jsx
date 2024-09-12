@@ -16,6 +16,10 @@ function App() {
     const formValue = form.filtr.value;
     console.log(formValue);
     setFiltr(formValue);
+    if (filtr === '') {
+      alert('Введіть матеріал, який Вас цікавить');
+      return;
+    }
     form.reset();
   };
   const filtrArray = links.filter((link) => {

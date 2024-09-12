@@ -4,7 +4,6 @@ const FilterResult = ({ renderArray }) => {
 
   return (
     <div className={css.filterResult}>
-      {/* <p className={css.text}>результат пошуку:</p> */}
       <ul className={css.filterList}>
         результат пошуку:
         {renderArray.map((link) => {
