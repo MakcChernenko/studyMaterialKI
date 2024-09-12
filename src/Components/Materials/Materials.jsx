@@ -21,6 +21,18 @@ return(
                 </li>
             <li className={css.item}>
                 <h2>Українська мова</h2>
+                <ul>
+                    <li><a href="./Ukrainian/book.pdf">Підручник</a>
+                    </li>
+                    <li><a href="./Ukrainian/pravopys.pdf">Список публічних виступів</a>
+                    </li>
+                    <li><a href="./Ukrainian/speachList.docx">Підручник</a>
+                    </li>
+                    <li><a href="./Ukrainian/Tests.docx">Тести</a>
+                    </li>
+                    <li><a href="https://goroh.pp.ua/%D0%A2%D1%80%D0%B0%D0%BD%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%86%D1%96%D1%8F/">Словник</a>
+                    </li>
+                </ul>
                 </li>
             <li className={css.item}>
                 <h2>Історія</h2>
