@@ -19,5 +19,10 @@ const links = [
   { id: 10, title: 'Історія', href: './History.docx' },
   { id: 11, title: 'Конспект 1 урока', href: './ITPravo1lesson.txt' },
   { id: 12, title: 'Розклад', href: './rozklad.pdf' },
+  {
+    id: 13,
+    title: 'Scype по математиці',
+    href: 'https://join.skype.com/H6XuWknzPBK8',
+  },
 ];
 export default links;

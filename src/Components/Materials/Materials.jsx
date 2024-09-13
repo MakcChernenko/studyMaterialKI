@@ -1,18 +1,25 @@
 import css from './Materials.module.css';
+import links from '../data/links.jsx';
 const Materials = () => {
   return (
     <div className={css.materials}>
       <a className={css.rozklad} href="./rozklad.pdf" target="_blank">
         Розклад PDF
       </a>
-      <a href="./rozklad.jpg" target="_blank" rel="noopener noreferrer">
-        Розклад JPG
-      </a>
       <h2>Наші предмети</h2>
       <ul className={css.list}>
         <li className={css.item}>
           <h3>Вища математика</h3>
           <ul>
+            <li>
+              <a
+                href="https://join.skype.com/H6XuWknzPBK8"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Scype по математиці
+              </a>
+            </li>
             <li>
               <a target="_blank" href="./komplekcniChysla.pdf">
                 Комплексні числа
