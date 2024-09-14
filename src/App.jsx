@@ -15,7 +15,7 @@ function App() {
     const form = e.target;
     const formValue = form.filtr.value;
     setFiltr(formValue);
-    if (filtr === '') {
+    if (formValue === '') {
       alert('Введіть матеріал, який Вас цікавить');
     }
 
@@ -31,7 +31,10 @@ function App() {
       <main>
         <h1 className="title">Наш сайт</h1>
 
-        {filtr !== '' && <FilterResult renderArray={filtrArray} />}
+        {filtr !== '' && filtrArray.length !== 0 && (
+          <FilterResult renderArray={filtrArray} />
+        )}
+        {filtrArray.length === 0 && <p>Співпадінь не знайдено</p>}
         <Materials />
       </main>
       <Footer />

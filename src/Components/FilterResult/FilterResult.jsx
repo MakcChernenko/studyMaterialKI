@@ -1,7 +1,6 @@
 import css from './FilterResult.module.css';
 const FilterResult = ({ renderArray }) => {
   console.log(renderArray);
-
   return (
     <div className={css.filterResult}>
       <ul className={css.filterList}>
