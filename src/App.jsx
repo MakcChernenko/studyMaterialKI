@@ -1,6 +1,4 @@
 import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
 import './App.css';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
@@ -29,8 +27,6 @@ function App() {
     <div>
       <Header handleSubmit={handleSubmit} />
       <main>
-        <h1 className="title">Наш сайт</h1>
-
         {filtr !== '' && filtrArray.length !== 0 && (
           <FilterResult renderArray={filtrArray} />
         )}

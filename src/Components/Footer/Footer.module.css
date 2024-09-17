@@ -1,12 +1,16 @@
 .footer {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 1406px;
+    height: 442px;
     position:sticky;
     bottom: 0;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 20px;
-    background-color: #333;
+    background: #561a26;
     color: #fff;
 }
 
@@ -22,26 +26,41 @@
 }
 
 .footerSocial {
-    flex: 2;
+    order: 1;
     list-style-type: none;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     padding: 0;
     margin: 0;
-    
 }
 
 .footerSocial li {
+    display: block;
     margin: 0 10px;
+
 }
 
 .footerSocialLink {
-    color: #fff;
+    display: flex;
     text-decoration: none;
-    font-size: 1rem;
-    /* color: rgb(5, 208, 25); */
-}
+    font-weight: 400;
+    font-size: 32px;
+    color: #fff;
+    width: 350px;
 
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 32px;
+    height: 32px;
+     fill: white;
+    background-color: #561a26; 
+    margin-right: 4px;
+
+}
 address {
     flex: 1;
     display: flex;
@@ -55,10 +74,31 @@ address a {
     text-decoration: none;
     margin: 5px 0;
     font-size: 1rem;
-    /* color: rgb(67, 8, 216); */
 }
-
-@media screen and (max-width: 480px) {
+.footer form{
+    order: 2;
+    width: 444px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer form label{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: #fff;
+}
+.footer form input{
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 424px;
+    height: 48px;
+    background: #e7e7e7;
+    font-size: 30px;
+    padding: 10px;
+}
+/* ============ */
+/* @media screen and (max-width: 480px) {
     .footer {
         width: 100%;
         flex-direction: column;
@@ -125,4 +165,4 @@ address a {
     address {
         margin-top: 0;
     }
-}
+} */

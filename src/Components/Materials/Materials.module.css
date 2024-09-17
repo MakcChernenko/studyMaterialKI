@@ -1,17 +1,52 @@
-.materials {
-  width: 100%;
-  padding: 10px 20px;
+
+.materials{
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 1406px;  
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: aqua;
+  background: #a4b5cf;
 }
-.materials a {
-  color: rgb(32, 33, 83);
+.materials h1{
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 1.375;
+  text-align: justify;
+  color: #2a2216
 }
-.materials .rozklad {
-  font-size: 25px;
+.rozklad{
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.8;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  text-align: justify;
+  color: #175f87;
+}
+.materials a{
+color: rgb(54, 20, 155)
+}
+.list{
+  list-style-type: none;
+}
+.item ul{
+  list-style-type: none;
+}
+.item h2{
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+}
+.item a{
+  font-weight: 500;
+  font-size: 40px;
+  font-variant: small-caps;
+  line-height: 1.04167;
+  text-align: justify;
+  color: #000;
   text-decoration: none;
-  color: rgb(36, 82, 55);
 }

@@ -1,21 +1,19 @@
 import css from './Materials.module.css';
-import links from '../data/links.jsx';
 const Materials = () => {
   return (
     <div className={css.materials}>
+        <h1>Шедевростуденти</h1>
       <a className={css.rozklad} href="./rozklad.pdf" target="_blank">
-        Розклад PDF
+        Розклад
       </a>
-      <h2>Наші предмети</h2>
       <ul className={css.list}>
         <li className={css.item}>
-          <h3>Вища математика</h3>
+          <h2>Вища математика</h2>
           <ul>
             <li>
               <a
                 href="https://join.skype.com/H6XuWknzPBK8"
                 target="_blank"
-                rel="noopener noreferrer"
               >
                 Scype по математиці
               </a>
@@ -28,7 +26,7 @@ const Materials = () => {
           </ul>
         </li>
         <li className={css.item}>
-          <h3>Фізика</h3>
+          <h2>Фізика</h2>
           <ul>
             <li>
               <a target="_blank" href="./Electromagnetyzm.pdf">
@@ -48,7 +46,7 @@ const Materials = () => {
           </ul>
         </li>
         <li className={css.item}>
-          <h3>Українська мова</h3>
+          <h2>Українська мова</h2>
           <ul>
             <li>
               <a href="./Ukrainian/book.pdf">Підручник</a>
@@ -72,7 +70,7 @@ const Materials = () => {
           </ul>
         </li>
         <li className={css.item}>
-          <h3>Історія</h3>
+          <h2>Історія</h2>
           <ul>
             <li>
               <a target="_blank" href="./History.docx">
@@ -82,7 +80,7 @@ const Materials = () => {
           </ul>
         </li>
         <li className={css.item}>
-          <h3>IT право</h3>
+          <h2>IT право</h2>
           <ul>
             <li>
               <a target="_blank" href="./ITPravo1lesson.txt">
@@ -92,13 +90,13 @@ const Materials = () => {
           </ul>
         </li>
         <li className={css.item}>
-          <h3>Комп'юторна інженерія</h3>
+          <h2>Комп'юторна інженерія</h2>
         </li>
         <li className={css.item}>
-          <h3>Мови програмування</h3>
+          <h2>Мови програмування</h2>
         </li>
         <li className={css.item}>
-          <h3>ще щось буде</h3>
+          <h2>ще щось буде</h2>
         </li>
       </ul>
     </div>
