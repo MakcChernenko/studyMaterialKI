@@ -21,7 +21,7 @@ const Footer = () => {
     <li>
         <a target="_blank" href="https://www.facebook.com/" className={styles.footerSocialLink}>
             <svg className={styles.icon}>
-                <use href="./public/img/sprites.svg#icon-facebook"></use>
+                <use href="/img/sprites.svg#icon-facebook"></use>
             </svg>
             Facebook
         </a>
