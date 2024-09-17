@@ -29,7 +29,7 @@ const Footer = () => {
     <li>
         <a target="_blank" href="https://www.youtube.com/" className={styles.footerSocialLink}>
             <svg className={styles.icon}>
-                <use href="./public/img/sprites.svg#icon-youtube"></use>
+                <use href="/img/sprites.svg#icon-youtube"></use>
             </svg>
             YouTube
         </a>
@@ -37,7 +37,7 @@ const Footer = () => {
     <li>
         <a target="_blank" href="https://www.instagram.com/" className={styles.footerSocialLink}>
             <svg className={styles.icon}>
-                <use href="./public/img/sprites.svg#icon-insta"></use>
+                <use href="/img/sprites.svg#icon-insta"></use>
             </svg>
             Instagram
         </a>
@@ -45,7 +45,7 @@ const Footer = () => {
     <li>
         <a target="_blank" href="https://www.tiktok.com/?lang=uk-UA" className={styles.footerSocialLink}>
             <svg className={styles.icon}>
-                <use href="./public/img/sprites.svg#icon-tiktok"></use>
+                <use href="/img/sprites.svg#icon-tiktok"></use>
             </svg>
             tik-tok
         </a>
