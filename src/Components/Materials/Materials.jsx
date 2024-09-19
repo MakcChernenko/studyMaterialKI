@@ -94,6 +94,12 @@ const Materials = () => {
         </li>
         <li className={css.item}>
           <h2>Мови програмування</h2>
+          <ul>
+            <li><a target="_blank" href="./programing/c.pdf">Підручник C++</a>
+            </li>
+            <li><a target="_blank" href="./programing/protokolLab.pdf">Протокол лабораторної роботи</a>
+            </li>
+          </ul>
         </li>
         <li className={css.item}>
           <h2>ще щось буде</h2>
